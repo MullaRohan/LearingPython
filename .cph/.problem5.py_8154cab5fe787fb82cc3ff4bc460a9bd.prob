@@ -1,0 +1,1 @@
+{"name":"Local: problem5","url":"e:\\test\\problem5.py","tests":[{"id":1756012470474,"input":"3\napple 10\nbanana 20\nmango 15\nbanana","output":"20"},{"id":1756012476799,"input":"3\napple 10\nbanana 20\nmango 15\njackfruit","output":"Not Found"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\test\\problem5.py","group":"local","local":true}

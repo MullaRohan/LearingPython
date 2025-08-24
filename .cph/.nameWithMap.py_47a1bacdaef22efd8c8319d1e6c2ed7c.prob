@@ -1,0 +1,1 @@
+{"name":"Local: nameWithMap","url":"e:\\test\\nameWithMap.py","tests":[{"id":1756010582682,"input":"6\napple orange apple banana orange apple","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\test\\nameWithMap.py","group":"local","local":true}
