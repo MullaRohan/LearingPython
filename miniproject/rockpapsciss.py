@@ -5,6 +5,7 @@
 # Paper > Scissor
 
 import random as rn
+import msvcrt as ms
 
 while True:
 
@@ -32,9 +33,10 @@ while True:
 
     print(f"You Choose: {dics[choice]}\nPC Choose: {pcchoice}\n")
     fn(dics[choice], pcchoice)
-    inp = input('\nContinue? "y"\nExit? "k"\nEnter: ')
+    print('\nPress any key to continue.\nExit? "press k"\nEnter: ')
+    UserChoice = ms.getch().decode().lower();
     print(
         "------------------------------------------------------------------------------------"
     )
-    if inp == "k":
-        break
+    if UserChoice == "k":
+        break;
