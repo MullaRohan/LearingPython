@@ -26,9 +26,10 @@ while True:
 
     dics = {"r": "Rock", "p": "Paper", "s": "Scissor"}
 
-    choice = input(
+    print(
         "Rock -> input r\nPaper -> input p\nScissor -> input s\n\nEnter Your Choice: "
-    ).lower()
+    )
+    choice = ms.getch().decode().lower()
     if choice not in dics.keys():
         print("inValid Choice")
         continue
@@ -44,4 +45,5 @@ while True:
         "------------------------------------------------------------------------------------"
     )
     if UserChoice == "k":
+        print("Thanks for play RockPaperScissor")
         break
